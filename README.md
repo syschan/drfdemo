@@ -51,3 +51,7 @@ https://github.com/yournameXXX/drfdemo.git
 
 8 推送代码到github远程仓库上：
 ...drfdemo>git push -u origin main
+
+
+# 跑起来
+...drfdemo>python manage.py runserver 0.0.0.0:8000
