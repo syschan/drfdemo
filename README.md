@@ -19,3 +19,35 @@
 
 ## step5：将DRF切入已有项目或者自拟项目
 ### 目标————能够根据项目实际需求快速开发出相应的API接口
+
+
+
+-----------------------------------------
+git操作步骤
+1 初始化git：
+...drfdemo>git init
+
+2 添加git账号配置：
+...drfdemo>git config --global user.email "your github emailXX@XX.com"
+...drfdemo>git config --global user.name "your github nameXXX"
+
+3 添加git文件到暂存区：
+3.1添加当前drfdemo目录下的所有文件
+...drfdemo>git add .
+3.2添加当前目前下制定文件
+...drfdemo>git add xxx/xxx.xxx
+
+4 切换分支到main上：
+...drfdemo>git branch -M main
+
+5 提交git文件到工作区
+...drfdemo>git commit -m '注释说明'
+
+6 github创建仓库drfdemo：
+https://github.com/yournameXXX/drfdemo.git
+
+7 添加仓库地址到远程origin：
+...drfdemo>git remote add origin https://github.com/yournameXXX/drfdemo.git
+
+8 推送代码到github远程仓库上：
+...drfdemo>git push -u origin main
