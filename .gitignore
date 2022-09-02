@@ -1,0 +1,4 @@
+# python 编译文件 忽略
+**/__pycache__
+*.pyc
+
