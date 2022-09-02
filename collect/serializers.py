@@ -70,7 +70,7 @@ class LoginTokenObtainPairSerializer(TokenObtainPairSerializer):
         return res_data
         # return data
 from jwt import decode as jwt_decode
-from drfdemo import settings
+from app import settings
 class GetUserInfoTokenVerifySerializer(TokenVerifySerializer):
     # default_error_messages = {
     #     'no_active_account': '用户名或者密码错误'

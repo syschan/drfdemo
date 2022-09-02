@@ -1,4 +1,4 @@
-# drfdemo
+# app
 # Django_Rest_Framework学习
 ## 参考资料
 ### 博客园|归来人少年|Django-DRF入门| https://www.cnblogs.com/jx-zzc/p/16519729.html
@@ -25,33 +25,33 @@
 -----------------------------------------
 git操作步骤
 1 初始化git：
-...drfdemo>git init
+...backends>git init
 
 2 添加git账号配置：
-...drfdemo>git config --global user.email "your github emailXX@XX.com"
-...drfdemo>git config --global user.name "your github nameXXX"
+...backends>git config --global user.email "your github emailXX@XX.com"
+...backends>git config --global user.name "your github nameXXX"
 
 3 添加git文件到暂存区：
-3.1添加当前drfdemo目录下的所有文件
-...drfdemo>git add .
+3.1添加当前backends目录下的所有文件
+...backends>git add .
 3.2添加当前目前下制定文件
-...drfdemo>git add xxx/xxx.xxx
+...backends>git add xxx/xxx.xxx
 
 4 切换分支到main上：
-...drfdemo>git branch -M main
+...backends>git branch -M main
 
 5 提交git文件到工作区
-...drfdemo>git commit -m '注释说明'
+...backends>git commit -m '注释说明'
 
-6 github创建仓库drfdemo：
-https://github.com/yournameXXX/drfdemo.git
+6 github创建仓库backends：
+https://github.com/yournameXXX/backends.git
 
 7 添加仓库地址到远程origin：
-...drfdemo>git remote add origin https://github.com/yournameXXX/drfdemo.git
+...backends>git remote add origin https://github.com/yournameXXX/backends.git
 
 8 推送代码到github远程仓库上：
-...drfdemo>git push -u origin main
+...backends>git push -u origin main
 
 
 # 跑起来
-...drfdemo>python manage.py runserver 0.0.0.0:8000
+...backends>python manage.py runserver 0.0.0.0:8000
